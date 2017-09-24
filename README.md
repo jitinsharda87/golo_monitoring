@@ -5,6 +5,14 @@ Following frameworks are used :
 - In-memory H2 Database
 - actuator (to monitor the health of this microservice)     
   http://localhost:8080/health
+  
+Installation Instruction :
+- java 8 should be installed
+- checkout the code
+- mvn clean install
+- mvn spring-boot:run ( Or it can be executed directly from IDE)
+
+
 
 Rest End points :
 -  The following end point will be used to save and monitor multiple services : 
